@@ -10,6 +10,10 @@ export const authOptions = {
     })
     // ...add more providers here
   ],
+ 
+  callbacks: {
+  },
+  secret: process.env.JWT_SECRET,
 }
 
 export default nextAuth(authOptions)
