@@ -11,7 +11,7 @@ const options = {
     // Add other providers as needed
   ],
   // Specify a secret for NextAuth.js to use
-  secret: process.env.NEXTAUTH_SECRET,
+  secret: 'zgnsinS+S6I2PaU8OQwPvQ3Gsqii9qDd2gdjBYxv3Qw=',
   // Add other options as needed
 };
 
